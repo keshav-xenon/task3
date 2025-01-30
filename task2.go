@@ -20,11 +20,11 @@ type Move struct {
 }
 
 var moves = []Move{
-	{1, 0}, // One missionary crosses
-	{2, 0}, // Two missionaries cross
-	{0, 1}, // One cannibal crosses
-	{0, 2}, // Two cannibals cross
-	{1, 1}, // One missionary and one cannibal cross
+	{1, 0},
+	{2, 0},
+	{0, 1},
+	{0, 2},
+	{1, 1},
 }
 
 func (s State) String() string {
