@@ -1,0 +1,1 @@
+jug1 != target && jug2 != target 
